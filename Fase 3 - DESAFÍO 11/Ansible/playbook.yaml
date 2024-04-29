@@ -1,0 +1,15 @@
+---
+- name: Instalar servidor web y cambiar el mensaje HTML
+  hosts: mi_servidor
+  become: yes
+
+  tasks:
+    - name: Instalar Nginx
+      yum:
+        name: nginx
+        state: present  # Puedes cambiar a "latest" si deseas la última versión
+
+    - name: Cambiar el mensaje HTML
+      template:
+        src: index.html.j2
+        dest: /usr/share/nginx/html/index.html
