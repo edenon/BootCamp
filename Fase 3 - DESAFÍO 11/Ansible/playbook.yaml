@@ -1,6 +1,6 @@
 ---
 - name: Instalar servidor web y cambiar el mensaje HTML
-  hosts: mi_servidor
+  hosts: pepe
   become: yes
 
   tasks:
