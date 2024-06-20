@@ -9,7 +9,7 @@ WINDOWS
 USER ACCOUNT CONTROL
 1.
 Configurar User Account Control para que solicite confirmación siempre.
-
+![](https://github.com/edenon/BootCamp/blob/f89bea1ed71a8a726e9f7812a98eb97552d02d05/F4%20-%20D16/UAC.png)
 REMOTE DESKTOP
 2.
 Habilitar el acceso por Remote Desktop.
